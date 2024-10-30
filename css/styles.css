@@ -1,0 +1,301 @@
+/*** Color Palette ***/
+/* 
+    #F4F4F4 off-white 
+    #FDD10C phred yellow 
+    #F58225 phred orange
+    #1A1C20 dark gray 
+*/
+
+html {
+    background-color: #F4F4F4;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding-bottom: .5rem;
+}
+
+.button-primary {
+    border-width: 1px;
+    border-color: #1A1C20; 
+    background-color: #FDD10C;
+    color: #1A1C20;
+    width: 130px;
+    height: 30px;
+    margin: .5rem 0;
+    text-align: top;
+    font-weight: 600;
+}
+
+.button-secondary {
+    border-width: 1px;
+    border-color: #1A1C20; 
+    background-color: #faefcf;
+    color: #1A1C20;
+    color: #1A1C20;
+    width: 130px;
+    height: 30px;
+    margin: .5rem 0;
+    text-align: top;
+    font-weight: 600;
+}
+
+.home {
+    background-color: #F4F4F4;
+    width: 100%;
+}
+
+.content {
+    background-color: #F4F4F4;
+    margin: auto;
+    max-width: 1140px;
+    padding: 0;
+}
+
+/*** Navbar ***/
+.topnav {
+    background-color: #FDD10C;
+}
+
+.navbar {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.navbar-brand {
+    color:#1A1C20;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    width: 100px;
+}
+
+.navbar-nav {
+    padding-right: 1rem;
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.navbar-custom {
+    background-color: #FDD10C;
+    color: #1A1C20;
+}
+
+.navbar-custom .active {
+    color: #F58225 !important;
+}
+
+.navbar-custom .a:hover {
+    color: #F58225 !important;
+}
+
+/*** Heading Section ***/
+.heading-content {
+    background-image: url("../assets/images/backgorund-competition-bw.jpg");
+    opacity: 0.9;
+    background-color: #1A1C20;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.home .heading-content {
+    background-image: url("../assets/images/backgorund-competition-bw.jpg");
+    height: 500px;
+}
+
+.heading-section {
+    color: #F4F4F4;
+    margin: auto;
+    max-width: 1140px;
+    padding: 8rem 2rem 2rem 3rem;
+    height: 500px;
+}
+
+.heading {
+    font-weight: 600;
+    padding: .5rem .5rem;
+    text-shadow: 1px 1px #1A1C20;
+}
+
+.heading-boxed {
+    width: 235px;
+    border-color: #FDD10C;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: .5rem .5rem;
+    text-shadow: 1px 1px #1A1C20;
+}
+
+.heading-float {
+    color: #FDD10C;
+    font-family: "Arial";
+    font-size: 6rem;
+    font-weight: 760;
+    padding-top: 12rem;
+    text-shadow: 1px 1px #1A1C20;
+}
+
+.heading-title {
+    color: #FDD10C;
+    font-family: "Arial";
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 1rem 0 0 .5rem;
+    text-shadow: 1px 1px #1A1C20;
+}
+
+.highlight-letter {
+    color: #FDD10C;
+}
+
+.highlight-word {
+    color: #F58225;
+}
+
+.emphasize-word {
+    font-style: italic;
+}
+
+/*** Body ***/
+.body-content {
+    background-color: #F4F4F4;
+}
+
+.body-content-dark {
+    background-color: #1A1C20;
+    opacity: 0.9;
+}
+
+/*** Sections ***/
+.content section {
+    padding: 4rem 4rem;
+    font-size: 1.1rem;
+}
+
+.bright-section {
+    background-color:#1A1C20;
+    color: #FDD10C
+}
+
+.lightest-section {
+    color: #1A1C20;
+    background-color: #F4F4F4;
+}
+
+.img-phredbot {
+    margin-top: 2rem;
+}
+
+.light-section {
+    color:#1A1C20;
+    background-color: #faefcf;
+}
+
+.dark-section {
+    background-color:#1A1C20;
+    color: #faefcf;
+}
+
+.centered-section {
+    justify-content: center;
+    text-align:justify
+}
+
+.section-title {
+    padding-bottom: 1rem;
+}
+
+.section-paragraph {
+    padding-bottom: 1rem;
+}
+
+.footer-section {
+    background-color: #1A1C20;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.social-media-icon {
+    padding: 1rem;
+}
+
+.spaced-content {
+    padding-bottom: 2rem;
+}
+
+.mentor-bio {
+    width: 300px;
+}
+
+.mentor-photo {
+    justify-content: center;
+    text-align: center;
+}
+
+.mentor-photo img {
+    border-radius: 5%;
+}
+
+.sponsor-marquee {
+    height: 40px;
+    background-color: #1A1C20;
+    color: #F58225;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.sponsor-marquee-item {
+    padding-left: 2rem;
+}
+
+/*** Mobile ***/
+@media (max-width: 990px) {
+
+    marquee {
+        display: none;
+    }
+
+    .heading-float {
+        padding-top: 6rem;        
+    }
+    
+    .img-students {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .heading-float {
+        visibility: hidden;
+    }
+
+    .remaining-word {
+        display: none;
+    }
+}
