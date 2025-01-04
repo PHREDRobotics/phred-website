@@ -1,0 +1,12 @@
+
+Backlog:
+- Update the sponsors
+- Update the sponsorship benefits
+- Add FRC season overview to About page
+- Update mentors
+- Update team photos
+- Remove 847 from logos
+- Add lego league?
+- Add Team resources?
+- Add donation link (to PHS donations)
+

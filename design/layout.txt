@@ -1,0 +1,22 @@
+Sections:
+- Team Pages
+    pages for each team with members, photos, progress, personalized to the team
+    team portfolios?
+
+- Events
+    embedded google calendar
+
+- Sponsors
+    current sponsors
+    become a sponsor
+    sponsorship packet
+
+- About
+    general information about PHRED, meet times for FTC and FRC, location
+    mentors
+    general information about FIRST, ORTOP, links to each
+    general information about FTC, FRC
+    embedded google contact form 
+
+- Community Outreach
+
