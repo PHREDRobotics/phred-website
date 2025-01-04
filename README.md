@@ -58,8 +58,8 @@ GitHub is a website where people can work together on projects, especially for w
 # Make a change to the PHRED website code Visual Studio Code
   In the Explorer section, click on the file index.html
   Press CTRL+f to find some text
-  Type “Team 847” in the Find text dialog and press ENTER
-  When you find the first place where “Team 847” is mentioned, replace it with your name
+  Type “Gear up!” in the Find text dialog and press ENTER
+  When you find the first place where Gear up!” is mentioned, replace it with your name
   Press CTRL+s to save the index.html file
   Return to your web browser, and click refresh to see the change on the home page
 
