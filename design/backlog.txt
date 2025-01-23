@@ -4,7 +4,7 @@ Backlog:
 - Update the sponsorship benefits
 - Update mentors
 - Update team photos
-- Add lego league?
-- Add Team resources?
+- Add FLL
+- Add Team resources? (github, chief dephi link, resources we used)
 - Add donation link (to PHS donations)
 
