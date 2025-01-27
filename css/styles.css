@@ -143,7 +143,7 @@ li {
     color: #FDD10C;
     font-family: "Arial";
     font-size: 4rem;
-    font-weight: 760;
+    font-weight: 600;
     padding-left: calc(2px + (5vw));
     padding-top: 27rem;
     margin-right: 1rem;
@@ -154,7 +154,7 @@ li {
     color: white;
     font-family: "Arial";
     font-size: 4rem;
-    font-weight: 760;
+    font-weight: 600;
     text-shadow: 1px 1px #1A1C20;
     padding-left: 3rem;
     padding-top: 27rem;
