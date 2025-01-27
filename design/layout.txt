@@ -1,0 +1,56 @@
+Sections:
+- Team Pages
+    pages for each team with members, photos, progress, personalized to the team
+    team portfolios?
+
+- Events
+    embedded google calendar
+
+- Sponsors
+    current sponsors
+    become a sponsor
+    sponsorship packet
+
+- About
+    general information about PHRED, meet times for FTC and FRC, location
+    mentors
+    general information about FIRST, ORTOP, links to each
+    general information about FTC, FRC
+    embedded google contact form 
+
+- Community Outreach
+
+
+
+------------------------------
+Motto? Futures under construction
+
+Home
+    PHRED Robotics
+    Futures under construction
+    Add logos for all teams (FRC, FTC, FLL)
+    Focus on more than PHS robotics... 4th thru 12th
+    De-emphasize Philomath High
+    Highlight smallness of our team/district with flashy stats
+    Highlight top sponsors on front page
+
+Carry the theme "under Construction" onto other pages... sponsors under construction
+
+FIRST + link to team first page
+
+Blog
+    post every week or so (open alliance? integration?)
+    https://www.chiefdelphi.com/t/team-847-phred-2025-build-thread/480833/2
+
+Gallery
+    connected to google albums... need to organize
+
+Events
+    Calendar
+    Broad event timeframes (seasons) with yearly events
+    can we link to a specific month/event on the calendar?
+
+About
+    Keep overview, but emphasize flexibility
+    Free for kids
+
