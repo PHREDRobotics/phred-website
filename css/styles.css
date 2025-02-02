@@ -265,7 +265,7 @@ li {
 .join-phred {
     text-align: center;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .mentor-bio {
@@ -281,10 +281,28 @@ li {
     border-radius: 5%;
 }
 
+.team-bio {
+    background-color: white;
+    width: 280px;
+    height: 370px;
+    border-radius: 5%;
+    font-weight: 400;
+    color:  #1A1C20;
+    margin-bottom: 2rem;
+}
+
+.team-logo {
+    justify-content: center;
+    text-align: center;
+}
+
+
 .sponsor-marquee {
     height: 40px;
     background-color: #1A1C20;
     color: #F58225;
+    border-width: 2px;
+    border-color: #1A1C20;
     font-weight: 500;
     font-size: 1.5rem;
 }
