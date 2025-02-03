@@ -32,7 +32,7 @@ li {
     border-color: #1A1C20; 
     background-color: #FDD10C;
     color: #1A1C20;
-    width: 130px;
+    width: 150px;
     height: 30px;
     margin: .5rem 0;
     text-align: top;
@@ -289,6 +289,7 @@ li {
     font-weight: 400;
     color:  #1A1C20;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .team-logo {
