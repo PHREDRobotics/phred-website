@@ -121,7 +121,7 @@ li {
 
 
 .home .heading-content {
-    background-image: url("../assets/images/backgorund-competition-2023.jpg");
+    background-image: url("../assets/images/background-phred-team.jpg");
     height: 730px;
 }
 
@@ -140,7 +140,7 @@ li {
 }
 
 .heading-float {
-    color: #FDD10C;
+    color: white;
     font-family: "Arial";
     font-size: 4rem;
     font-weight: 600;
@@ -151,7 +151,7 @@ li {
 }
 
 .heading-float-animated {
-    color: white;
+    color: #F58225;
     font-family: "Arial";
     font-size: 4rem;
     font-weight: 600;
@@ -163,8 +163,8 @@ li {
 }
 
 @keyframes heading-animation {
-    from {color: #F58225; padding-top: 5rem; }
-    to   {color: white; padding-top: 27rem; }
+    from {color: white; padding-top: 5rem; }
+    to   {color: #F58225; padding-top: 27rem; }
 }
 
 .heading-title {
@@ -312,6 +312,10 @@ li {
     padding-left: 2rem;
 }
 
+.collapsed {
+    display: none;
+}
+
 /** Medium screen **/
 @media (max-width: 1145px) {
 
@@ -337,6 +341,12 @@ li {
 @media (max-width: 1030px) {
     .remaining-word {
         display: none;
+    }
+    .not-collapsed {
+        display: none;
+    }
+    .collapsed {
+        display: inline;
     }
 }
 
