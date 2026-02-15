@@ -306,10 +306,28 @@ li {
     border-color: #1A1C20;
     font-weight: 500;
     font-size: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.sponsor-marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 30s linear infinite;
 }
 
 .sponsor-marquee-item {
     padding-left: 2rem;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .collapsed {
