@@ -20,7 +20,7 @@
   <!-- Top Navigation -->
   <div class="topnav fixed-top">
     <nav class='navbar fixed-top navbar-light navbar-custom navbar-expand-sm'>
-      <a class='navbar-brand' href='./index.html'><img src='./assets/images/Logo_BG-Generic.png'>PHRED Robotics</a>
+      <a class='navbar-brand' href='./index.html'><img src='./assets/images/Logo_BG-Generic.png' alt='PHRED logo'>PHRED Robotics</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="PHRED site navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,6 +38,7 @@
           </li>
           <li class='nav-item navbar-custom'><a class='nav-link navbar-custom' href='./events.html'>Events</a></li>
           <li class='nav-item navbar-custom'><a class='nav-link navbar-custom' href='./sponsors.html'>Sponsors</a></li>
+          <li class='nav-item navbar-custom'><a class='nav-link navbar-custom' href='./resources.html'>Resources</a></li>
           <li class="nav-item navbar-custom dropdown">
             <a class="nav-link dropdown-toggle" href="./about.html" id="navbarDropdownAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
@@ -45,6 +46,7 @@
             <div class="dropdown-menu navbar-custom" aria-labelledby="navbarDropdownAbout">
               <a class="dropdown-item navbar-custom" href="./about.html">About PHRED</a>
               <a class="dropdown-item navbar-custom" href="./first-robotics.html">FIRST Robotics</a>
+              <a class="dropdown-item navbar-custom" href="./community-outreach.html">Community Outreach</a>
               <a class="dropdown-item navbar-custom" href="./contact.html">Contact Us</a>
             </div>
           </li>          
@@ -69,15 +71,17 @@
 
   <!-- Sponsor Marquee -->
   <div class='marquee'>
-    <marquee class="sponsor-marquee" behavior="scroll" direction="left">
-      <span class="sponsor-marquee-item">Our Top Sponsors:</span>
-      <span class="sponsor-marquee-item">Philomath Boosters Club</span>
-      <span class="sponsor-marquee-item">Argosy Foundation</span>
-      <span class="sponsor-marquee-item">LAM Research</span>
-      <span class="sponsor-marquee-item">Wiger Family</span>
-      <span class="sponsor-marquee-item">Maxfield Foundation</span>
-      <span class="sponsor-marquee-item">NuScale</span>
-    </marquee>        
+    <div class="sponsor-marquee">
+      <div class="sponsor-marquee-content">
+        <span class="sponsor-marquee-item">Our Top Sponsors:</span>
+        <span class="sponsor-marquee-item">Philomath Boosters Club</span>
+        <span class="sponsor-marquee-item">Argosy Foundation</span>
+        <span class="sponsor-marquee-item">LAM Research</span>
+        <span class="sponsor-marquee-item">Wiger Family</span>
+        <span class="sponsor-marquee-item">Maxfield Foundation</span>
+        <span class="sponsor-marquee-item">NuScale</span>
+      </div>
+    </div>
   </div>
 
   <!-- Main content -->
@@ -94,7 +98,7 @@
             <h1><span class="highlight-letter">D</span>ivision</h1>
           </div>
           <div class='col'>
-            <img class="img-condense" src="./assets/images/phred-team-2025.jpg" />
+            <img class="img-condense" src="./assets/images/phred-team-2025.jpg" alt="PHRED Robotics team photo 2025" />
           </div>
         </div>
       </section>
@@ -110,7 +114,7 @@
               </li>
               <li>
                 <div class="p-3">
-                  <a href='https://www.firstinspires.org' target="_blank"><img width='200px'src='./assets/first/FIRST_HorzRGB_reverse.png'/></a>
+                  <a href='https://www.firstinspires.org' target="_blank"><img width='200px'src='./assets/first/FIRST_HorzRGB_reverse.png' alt='FIRST Inspires logo'/></a>
                 </div>
               </li>
             </ul>
@@ -120,27 +124,27 @@
           <div class='col-s-12 col-md-6 col-lg-4 is-clickable' onclick="location.href='./team-fll.html'">
             <div class='p-3 team-bio'>
               <div class="p-3 team-logo">
-                <a href='https://www.firstinspires.org/robotics/fll' target="_blank"><img width='200px' src='./assets/first/FIRSTLego_iconHorz_RGB.jpg'/></a>
+                <a href='https://www.firstinspires.org/robotics/fll' target="_blank"><img width='200px' src='./assets/first/FIRSTLego_iconHorz_RGB.jpg' alt='FIRST Lego League logo'/></a>
               </div>
-              <h5>Grades 4th - 6th</h5>
+              <h5>Grades 4th - 5th</h5>
               <div>FLL teams design, build, and program LEGO robots to complete in themed challenges while developing problem-solving, teamwork, and innovation skills.</div>
             </div>
           </div>
           <div class='col-s-12 col-md-6 col-lg-4 is-clickable' onclick="location.href='./team-ftc.html'">
             <div class='p-3 team-bio'>
               <div class="p-3 team-logo">
-                <a href='https://www.firstinspires.org/robotics/ftc' target="_blank"><img width='200px' src='./assets/first/FIRSTTech_iconHorz_RGB.jpg'/></a>
+                <a href='https://www.firstinspires.org/robotics/ftc' target="_blank"><img width='200px' src='./assets/first/FIRSTTech_iconHorz_RGB.jpg' alt='FIRST Tech Challenge logo'/></a>
               </div>
               <h5>Grades 6th - 8th</h5>
               <div>FTC teams design, build, and program mid-sized robots using a modular robotics platform to compete in head-to-head challenges while developing engineering, coding, and teamwork skills.</div>
             </div>
           </div>
-          <div class='col-s-12 col-md-6 col-lg-4 is-clickable' onclick="location.href='./team-f.html'">
+          <div class='col-s-12 col-md-6 col-lg-4 is-clickable' onclick="location.href='./team-frc.html'">
             <div class='p-3 team-bio'>
               <div class="p-3 team-logo">
-                <img width='200px' src='./assets/first/FIRSTRobotics_iconHorz_RGB.jpg'/>
+                <img width='200px' src='./assets/first/FIRSTRobotics_iconHorz_RGB.jpg' alt='FIRST Robotics Competition logo'/>
               </div>
-              <h5>Grades 8th - 12th</h5>
+              <h5>Grades 9th - 12th</h5>
               <div>FRC teams design, build, and program large-scale robots in a high-intensity, real-world engineering environment, competing in complex challenges that emphasize innovation, collaboration, and STEM leadership.</div>
             </div>
           </div>
@@ -157,7 +161,7 @@
         </div>
         <div class='row'>
           <div class='col m-4'>
-            <img class="img-condense" src='./assets/images/phred-bot.jpg'/>
+            <img class="img-condense" src='./assets/images/phred-bot.jpg' alt='PHRED robot at competition'/>
           </div>
         </div>
         </div>
@@ -174,27 +178,27 @@
       </div>
       <div>
         <a href="https://www.instagram.com/phredteam847" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/instagram logo.png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/instagram logo.png" alt="Instagram">
         </a>
         <a href="https://www.facebook.com/phredteam847" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/480px-Facebook_logo_(square).png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/480px-Facebook_logo_(square).png" alt="Facebook">
         </a>
         <a href="https://www.youtube.com/channel/UCR7btL4x_A8hovw62ih2Tmw" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/2560px-YouTube_full-color_icon_(2017).svg.png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/2560px-YouTube_full-color_icon_(2017).svg.png" alt="YouTube">
         </a>
         <a href="https://linktr.ee/PHRED847" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/linktree logo png.png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/linktree logo png.png" alt="Linktree">
         </a>
         <a href="https://www.chiefdelphi.com/t/847-phred-2023-open-alliance-build-thread/419201" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/CD logo png.png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/CD logo png.png" alt="Chief Delphi">
         </a>
         <a href="https://www.thebluealliance.com/team/847" target="_blank">
-          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/tba logo png.png">
+          <img class="social-media-icon" height="70px" width="70px" src="./assets/icons/tba logo png.png" alt="The Blue Alliance">
         </a>
       </div>
     </div>
     <div>
-      © 2025 Copyright: Philomath Robotics Engineering Division 
+      © <span id="copyright-year"></span> Copyright: Philomath Robotics Engineering Division
     </div>
   </section>
 
@@ -208,6 +212,11 @@
   </script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'
     integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI' crossorigin='anonymous'>
+  </script>
+
+  <!-- Dynamic copyright year -->
+  <script>
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
   </script>
 </body>
 
